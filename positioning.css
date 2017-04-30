@@ -1,0 +1,43 @@
+
+html {background: white;}
+
+h1 { text-align: left;
+
+}
+hr {
+	background: red;
+	width: 110%;
+	margin-left:0;
+	height: 2px;
+}
+
+body {
+	margin-left: 20%;
+	margin-right: 20%;
+	text-align: center;
+	line-height: 28px;
+	
+	
+}
+
+#fixed {
+	padding: 40px;
+	position: fixed;
+	background: grey;
+	left:1;
+	top:0;
+}
+
+.relative {
+	padding: 100px;
+	background: grey;
+	position: relative;
+
+}
+.absolute {
+	padding: 40px;
+	background: white;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
